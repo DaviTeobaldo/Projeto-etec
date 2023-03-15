@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+body{
+    background-color: #23238E;
+    padding: 40px;
+}.container{
+    background-color: #010B22;
+    color: white;
+    box-sizing: content-box;
+}.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    margin: 0px 0px 10px 0;
+    padding: 25px 0 25px 0;
+    background-color: #000000;
+    
+}.navegacao{
+    display: inline-flex;
+    gap: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    list-style-type: none;
+}.menu_usuario{
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+}.logo{
+    width: 80px;
+    
+}.navegacao_item{
+    text-decoration:  none;
+    font-size: 18px;
+    line-height: 100px;
+    font-weight: 400;
+    color: white;
+}.navegacao_item:hover{
+    text-decoration: underline;
+    font-size: 24px;
+}#usuario{
+    background-color: #0039E6;
+    border-radius: 60px;
+    position: relative;
+    height: 50px;
+    width: 50px;
+}#cadastrar{
+    background-color: #0039E6;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 15px 10px 5px 15px;
+    margin-right: 17px;
+
+}#cadastrar:hover{
+    transform: scale(1.2);
+    color: #0039E6;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+    
+}.titulo{
+    font-family: 'Climate Crisis', cursive;
+    font-size: 7.0rem;
+    text-align: center;
+    margin: 0 0 30px 0;
+    
+}.filmes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 45px;
+    padding: 5%;
+    
+}.imagem{
+    width: 200rem;
+    height: 200px;
+    margin: 0 10%;
+    border: 5px solid #F9F9F9;
+    border-radius: 8px;
+    
+}.imagem:hover{
+    transform: scale(1.15);
+    border-color: rgba(189,8,8,1);
+}.filmes_item{
+    display: flex;
+    justify-content: center;
+    
+}

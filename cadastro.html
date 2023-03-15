@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/cadastro-style.css">
+</head>
+<body>
+    
+    <header class="menu">
+        <img src="imagens/logo_netflix.png" alt="Logo da netflix" class="logo">
+            <ul class="navegacao">
+                <li><a href="index.html" class="navegacao_item">Início</a></li>
+                <li><a href="destaques.html" class="navegacao_item">Destaques</a></li>
+                <li><a href="cadastro.html" class="navegacao_item">Contato</a></li>
+            </ul>
+            <div class="menu_usuario">
+                <a href="cadastro.html" id="cadastrar">Cadastre-se</a>
+                <img src="imagens/usuario.jpg" alt="Foto do usuário" id="usuario">
+            </div>
+    </header>
+    <main class="principal">
+        <img src="imagens/usuario.jpg" class="usuario">
+        <input type="file" id="arquivo">
+        <input type="text" name="nome" placeholder="Nome completo" id="nome" class="entradas">
+        <input type="email" name="e-mail" placeholder="seu-email@dominio.com"id="email" class="entradas">
+        <input type="password" name="senha" placeholder="Senha" id="senha" class="entradas">
+        <input type="text" name="telefone" placeholder="(DD) 12345-6789" id="telefone" class="entradas">
+        <input type="submit" name="enviar" id="envio" onclick="Enviar()">
+    </main>
+    <script>
+        function Enviar(){
+            window.alert("Cadastrado! Muito obrigado!")
+        }
+    </script>
+</body>
+</html>
